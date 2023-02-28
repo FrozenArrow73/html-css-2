@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+header {
+    height: 200px;
+    background-color: darkgray;
+}
+.body{
+    display: flex;
+    align-items: flex-end;
+}
+.colomn{
+    display: inline-block;
+    background-color: lightgray;
+    height: 100vh;
+    width: 20%;
+}
+.right {
+    right: 0px;
+}
+.footer {
+    position: relative;
+    display: inline-block;
+    background-color: darkslategray;
+    bottom: 0px;
+    height: 10vh;
+    width: 80%;
+}
