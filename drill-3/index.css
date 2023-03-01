@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    background-color: lightgray;
+    height: 10vh;
+    width: 100vw;
+}
+.square{
+    height: 8vh;
+    width: 8vh;
+    background-color: blue;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+.page{
+    height: 40vh;
+    width: 100vw;
+    background-color: white;
+}
+.text {
+    margin-left: 10vh;
+    margin-top: 3vh;
+    margin-right: 10vh;
+}
+.one{
+    height: 25vh;
+    width: 100vw;
+    background-color: blue;
+}
+.two{
+    height: 25vh;
+    width: 100vw;
+    background-color: aqua;
+}
+.circle {
+    position: fixed;
+    color: white;
+    background-color: black;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    text-align: center;
+    bottom: 0%;
+    right: 0%;
+}
+.question{
+    margin-top: 1.5vh;
+}
+.three{
+    height: 25vh;
+    width: 100vw;
+    background-color: rgb(184, 254, 79);
+}
+.four{
+    height: 25vh;
+    width: 100vw;
+    background-color: yellow;
+}
