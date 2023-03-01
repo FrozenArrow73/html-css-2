@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.sections {
+    height: 26vh;
+    margin: 10px;
+
+}
+.one {
+    border-style: solid;
+    border-color: black;
+}
+.two {
+    border-style: dotted;
+    border-color: black;
+}
+.three {
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+    border-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: navy;
+    /* text-align: center; */
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    margin: 0px;
+
+}
+
+box {
+    margin: 10%;
+}
