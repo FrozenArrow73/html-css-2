@@ -4,8 +4,8 @@ body {
 }
 
 .sections {
-    height: 26vh;
-    margin: 10px;
+    height: 160px;
+    margin: 1vw;
 
 }
 .one {
@@ -29,13 +29,27 @@ body {
 }
 h1 {
     color: navy;
-    /* text-align: center; */
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 4px;
     margin: 0px;
 
 }
 
-box {
-    margin: 10%;
+.box {
+    position: absolute;
+    height: 135px;
+    width: 94vw; 
+    margin-left: 1vw;
+    margin-top: 10px;
+    background-color: rgb(252, 219, 219);
+}
+
+.box2 {
+    position: absolute;
+    height: 135px;
+    width: 94vw; 
+    margin-left: 1.45vw;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.624);
+    z-index: -1;
 }
